@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NUMAD22Sp_ChenjieBei</string>
+    <string name="about_me_string">About Me</string>
+    <string name="e_mail_string">E-mail</string>
+    <string name="name_string">Name</string>
+    <string name="name_hint_string">name_hint</string>
+    <string name="email_hint_string">email_hint</string>
+</resources>
