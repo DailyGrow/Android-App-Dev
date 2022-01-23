@@ -5,4 +5,5 @@
     <string name="name_string">Name</string>
     <string name="name_hint_string">name_hint</string>
     <string name="email_hint_string">email_hint</string>
+    <string name="my_first_android_homework_string">My_First_Android_Homework</string>
 </resources>
