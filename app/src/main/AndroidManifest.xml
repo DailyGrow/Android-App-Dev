@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_bei_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD22Sp_ChenjieBei">
-        <activity android:name=".SecondActivity"></activity>
+
+
+        <activity android:name=".LinkActivity" />
+        <activity android:name=".SecondActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

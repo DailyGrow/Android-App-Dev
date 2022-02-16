@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,SecondActivity.class);
         startActivity(intent);
     }
+
+    public void onTouch2(View view){
+        Intent intent=new Intent(this,LinkActivity.class);
+        startActivity(intent);
+    }
 }

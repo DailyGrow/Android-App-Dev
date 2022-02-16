@@ -14,4 +14,10 @@
     <string name="b">B</string>
     <string name="f">F</string>
     <string name="pressed">Pressed: -</string>
+    <string name="url">URL</string>
+    <string name="check">check</string>
+    <string name="name">name</string>
+    <string name="icon">icon</string>
+    <string name="click">click</string>
+    <string name="cancel">cancel</string>
 </resources>
