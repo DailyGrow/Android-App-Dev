@@ -35,4 +35,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,LinkActivity.class);
         startActivity(intent);
     }
+
+    public void onTouch3(View view){
+        Intent intent=new Intent(this,LocationActivity.class);
+        startActivity(intent);
+    }
+
 }
