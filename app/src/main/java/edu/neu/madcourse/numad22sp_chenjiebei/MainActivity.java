@@ -41,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onTouch4(View view){
+        Intent intent=new Intent(this,WebServiceActivity.class); //FIX:ME
+        startActivity(intent);
+    }
+
 }

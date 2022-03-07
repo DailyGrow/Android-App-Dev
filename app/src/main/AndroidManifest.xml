@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.neu.madcourse.numad22sp_chenjiebei">
+    <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_bei_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD22Sp_ChenjieBei">
-        <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".WebServiceActivity"></activity>
+        <activity android:name=".LocationActivity" />
         <activity android:name=".LinkActivity" />
         <activity android:name=".SecondActivity" />
         <activity
@@ -22,11 +27,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <!-- Always include this permission -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
-    <!-- Include only if your app benefits from precise location access. -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 </manifest>
